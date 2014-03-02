@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tjstankus@gmail.com"]
   spec.summary       = %q{Do stuff with kindle notes. }
   spec.description   = %q{Do more descriptive stuff with kindle notes.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tjstankus/ignote"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", "~> 10.1"
 end
