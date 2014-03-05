@@ -1,7 +1,10 @@
 TODO
 ====
 
-- [ ] Remove pry. Is there a way to use it across-the-board by default in bundler?
+- [ ] Coordinating with ImportProcessor
+
+- [ ] Remove pry. Is there a way to use it across-the-board by default in
+  bundler?
 
 DONE
 ====
@@ -10,3 +13,4 @@ DONE
 - [x] Rewrite expectations/specs for FileParser to not mandate a format for the
   strings. All we need to know is that: 1) The file got split into the expected
   number of strings
+- [x] Import Ignote Evernote note into README and DEV_NOTES files.

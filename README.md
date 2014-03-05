@@ -1,6 +1,22 @@
 # Ignote
 
-TODO: Write a gem description
+## What does Ignote do?
+
+Nothing real at the moment. The specs pass, so there's that.
+
+## What will Ignote do?
+
+- Parses kindle clippings notes file (My Clippings.txt) into Ruby objects
+- Maintains a file-based, local data store of clippings (in something like
+  sqlite, PStore)
+- Exports notes into another format
+  - Evernote
+- A web app (local Sinatra or Node.js) provides local browser access to notes.
+  Sinatra would be easier because we can reuse the domain objects. Node.js would
+  be cool because it's (much) less familiar to me and would serve as a learning
+  project.
+- Down the line, maybe this also handles annotations from a PDF, but at first,
+  just Kindle.
 
 ## Installation
 
